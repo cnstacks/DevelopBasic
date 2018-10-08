@@ -10,7 +10,7 @@
 ""
 """打印个人信息的小程序！"""
 
-# 方案01：
+# 方案01-Low B Type：
 name = input("Name:")
 age = int(input("Age:"))
 job = input("Job:")
@@ -22,7 +22,7 @@ hometown = input("Hometown:")
 # print("Job:", job)
 # print("Hometown:", hometown)
 
-# 方案02：
+# 方案02-字符串的格式化输出类型：
 info = """
 --------Info of %s -------
 Name:%s
