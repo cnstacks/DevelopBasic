@@ -33,9 +33,10 @@ Hometown:%s
 """ % (name, name, age, job, hometown)
 print(info)
 
-
 """
 小结：
 1、input接收的数据类型都是"字符串"；
 2、使用int()进行数据类型的转换！
+3、s = string;d = digit;f = float;
+4、三个双引号定义多行文本；
 """
