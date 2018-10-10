@@ -3,7 +3,7 @@
 # Project: DevelopBasic 
 # Software: PyCharm
 # DateTime    : 2018-10-08 19:22
-# File    : 1-26while循环.py
+# File    : 1-26 while循环.py
 # __author__: 天晴天朗
 # Email   : tqtl@tqtl.org
 
