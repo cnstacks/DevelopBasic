@@ -22,10 +22,11 @@ print(names[3])
 # print(names[4])#IndexError: list index out of range
 print(names[-1])
 print(names[-2])
-print("index:",names.index("cuixiaozhao"))
+print("index:", names.index("cuixiaozhao"))
 
-numbers = [1,2,3,4,5,5,5,5,3,3,3,2,2,34,]
+numbers = [1, 2, 3, 4, 5, 5, 5, 5, 3, 3, 3, 2, 2, 34, ]
 names.extend(numbers)
 print(names)
 print(names[-5:])
 print(names[-5:-1])
+print(names[::2])  # ['cuixiaozhao', 'cuixiaosi', 1, 3, 5, 5, 3, 3, 2]
