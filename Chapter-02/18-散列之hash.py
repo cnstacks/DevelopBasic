@@ -7,6 +7,18 @@
 # __author__: 天晴天朗
 # Email: tqtl@tqtl.org
 
+a = 1993
+print(hash(a))
 
-name = "cuixiaozhao"
+name = ("cuixiaozhao",)
 print(hash(name))  # 2942107572806043745
+
+nums = [1, 2, 3]
+print(hash(nums))  # TypeError: unhashable type: 'list'
+
+
+"""
+文件签名；
+md5加密；
+密码验证；
+"""
