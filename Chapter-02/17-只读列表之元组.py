@@ -14,3 +14,10 @@ print(names[1:4])
 names[-1][1] = "numbers"
 print(names)  # ('cuixiaozhao', 'cuixiaoshan', 'cuixiaosi', [11, 'numbers', 13])
 print(names.index('cuixiaozhao'))
+"""
+元组总结:
+1、可切片；
+2、index和count；
+3、默认不可修改，但是元组内部如果包含可变类型，便可支持修改，如nums = [1,2,3,4]
+4、一般用作配置文件；
+"""

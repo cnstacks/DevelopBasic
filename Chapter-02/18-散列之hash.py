@@ -18,7 +18,8 @@ print(hash(nums))  # TypeError: unhashable type: 'list'
 
 
 """
-文件签名；
-md5加密；
-密码验证；
+用途:
+1、文件签名；
+2、md5加密；
+3、密码验证；
 """
