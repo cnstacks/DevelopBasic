@@ -200,8 +200,8 @@ print(end2 - start2)
 
 # 商品li = ["手机", "电脑", '鼠标垫', '游艇']
 """
-允许用户添加商品
-用户输入序号显示内容
+允许用户添加商品;
+用户输入序号显示内容;
 """
 # 11、用户交互显示类似省市县N级联动的选择
 
@@ -209,7 +209,7 @@ print(end2 - start2)
 # 允许用户选择查看某一个级别内容
 
 # 12、列举布尔值是False的所有值
-
+{}, (), None, '', 0,
 # 13、有两个列表
 
 l1 = [11, 22, 33]
@@ -273,4 +273,16 @@ elif abs(avg - gte[0]) > abs(avg - lte[-1]):
     print("最接近的数值为：", lte[-1])
 # 利用for循环和range输出9 * 9乘法表
 print('\n'.join([' '.join(["%d*%d=%2s" % (y, x, x * y) for y in range(1, x + 1)]) for x in range(1, 10)]))
-# # 求100以内的素数和。（编程题）
+
+# 求100以内的素数和。（编程题）
+
+sum = 0
+for num in range(1, 100):
+    # 质数大于 1
+    if num > 1:
+        for i in range(2, num):
+            if (num % i) == 0:
+                break
+        else:
+            sum += num
+print(sum)
