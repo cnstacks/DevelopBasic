@@ -9,5 +9,3 @@
 
 s = 'Hello World!'
 print(s.swapcase())
-
-s.
