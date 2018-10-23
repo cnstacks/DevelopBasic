@@ -55,16 +55,20 @@ current_layer = menu
 layers = []
 
 while True:
+    print("三级菜单程序".center(50, "*"))
+    print("Usage:返回上一层请输入:b,退出程序请输入:q")
+    print("三级菜单程序".center(50, "*"))
     for k in current_layer: print(k)
     choice = input(">>>:").strip()
-    if not choice: continue
+    if not choice:
+        continue
+    elif choice == "b":
+        if len(layers) != 0:
+            current_layer = layers.pop()
+        else:
+            print("已经回到第一层，退出程序请输入:q")
+    elif choice == "q":
+        exit("退出该程序")
     if choice in current_layer:
         layers.append(current_layer)
         current_layer = current_layer[choice]
-    elif choice == "b":
-        if len(layers) !=0:
-            current_layer = layers.pop()
-        else:
-            print("已经回到第一层，退出程序请输入q")
-    elif choice == "q":
-        exit("退出程序")
